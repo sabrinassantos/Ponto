@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "NNqpug4X9CVAk4Dae8sxxnNkyvj2OTp9GTUK0Bx77l57a9/7sMUCJygBo7/g98XSVlWffiN1J1D/9BdZ4haHLA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sabri\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\sabri\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.7.1\\microsoft.identitymodel.jsonwebtokens.6.7.1.nupkg.sha512",
+    "C:\\Users\\sabri\\.nuget\\packages\\microsoft.identitymodel.logging\\6.7.1\\microsoft.identitymodel.logging.6.7.1.nupkg.sha512",
+    "C:\\Users\\sabri\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.7.1\\microsoft.identitymodel.tokens.6.7.1.nupkg.sha512",
+    "C:\\Users\\sabri\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.7.1\\system.identitymodel.tokens.jwt.6.7.1.nupkg.sha512",
+    "C:\\Users\\sabri\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,60 @@
+C:\curso_api_netcore\src\Api.Data\bin\Debug\netcoreapp3.1\Data.deps.json
+C:\curso_api_netcore\src\Api.Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.json
+C:\curso_api_netcore\src\Api.Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.dev.json
+C:\curso_api_netcore\src\Api.Data\bin\Debug\netcoreapp3.1\Data.dll
+C:\curso_api_netcore\src\Api.Data\bin\Debug\netcoreapp3.1\Data.pdb
+C:\curso_api_netcore\src\Api.Data\bin\Debug\netcoreapp3.1\Domain.dll
+C:\curso_api_netcore\src\Api.Data\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\curso_api_netcore\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csprojAssemblyReference.cache
+C:\curso_api_netcore\src\Api.Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfoInputs.cache
+C:\curso_api_netcore\src\Api.Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfo.cs
+C:\curso_api_netcore\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csproj.CoreCompileInputs.cache
+C:\curso_api_netcore\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csproj.CopyComplete
+C:\curso_api_netcore\src\Api.Data\obj\Debug\netcoreapp3.1\Data.dll
+C:\curso_api_netcore\src\Api.Data\obj\Debug\netcoreapp3.1\Data.pdb
+C:\curso_api_netcore\src\Api.Data\obj\Debug\netcoreapp3.1\Data.genruntimeconfig.cache
+C:\Users\sabri\Downloads\curso_api_netcore (2)\src\Api.Data\bin\Debug\netcoreapp3.1\Data.deps.json
+C:\Users\sabri\Downloads\curso_api_netcore (2)\src\Api.Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.json
+C:\Users\sabri\Downloads\curso_api_netcore (2)\src\Api.Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.dev.json
+C:\Users\sabri\Downloads\curso_api_netcore (2)\src\Api.Data\bin\Debug\netcoreapp3.1\Data.dll
+C:\Users\sabri\Downloads\curso_api_netcore (2)\src\Api.Data\bin\Debug\netcoreapp3.1\Data.pdb
+C:\Users\sabri\Downloads\curso_api_netcore (2)\src\Api.Data\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\sabri\Downloads\curso_api_netcore (2)\src\Api.Data\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\sabri\Downloads\curso_api_netcore (2)\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csprojAssemblyReference.cache
+C:\Users\sabri\Downloads\curso_api_netcore (2)\src\Api.Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfoInputs.cache
+C:\Users\sabri\Downloads\curso_api_netcore (2)\src\Api.Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfo.cs
+C:\Users\sabri\Downloads\curso_api_netcore (2)\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csproj.CoreCompileInputs.cache
+C:\Users\sabri\Downloads\curso_api_netcore (2)\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csproj.CopyComplete
+C:\Users\sabri\Downloads\curso_api_netcore (2)\src\Api.Data\obj\Debug\netcoreapp3.1\Data.dll
+C:\Users\sabri\Downloads\curso_api_netcore (2)\src\Api.Data\obj\Debug\netcoreapp3.1\Data.pdb
+C:\Users\sabri\Downloads\curso_api_netcore (2)\src\Api.Data\obj\Debug\netcoreapp3.1\Data.genruntimeconfig.cache
+D:\Estudos\Senac\Prova\src\Api.Data\bin\Debug\netcoreapp3.1\Data.deps.json
+D:\Estudos\Senac\Prova\src\Api.Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.json
+D:\Estudos\Senac\Prova\src\Api.Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.dev.json
+D:\Estudos\Senac\Prova\src\Api.Data\bin\Debug\netcoreapp3.1\Data.dll
+D:\Estudos\Senac\Prova\src\Api.Data\bin\Debug\netcoreapp3.1\Data.pdb
+D:\Estudos\Senac\Prova\src\Api.Data\bin\Debug\netcoreapp3.1\Domain.dll
+D:\Estudos\Senac\Prova\src\Api.Data\bin\Debug\netcoreapp3.1\Domain.pdb
+D:\Estudos\Senac\Prova\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csprojAssemblyReference.cache
+D:\Estudos\Senac\Prova\src\Api.Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfoInputs.cache
+D:\Estudos\Senac\Prova\src\Api.Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfo.cs
+D:\Estudos\Senac\Prova\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csproj.CoreCompileInputs.cache
+D:\Estudos\Senac\Prova\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csproj.CopyComplete
+D:\Estudos\Senac\Prova\src\Api.Data\obj\Debug\netcoreapp3.1\Data.dll
+D:\Estudos\Senac\Prova\src\Api.Data\obj\Debug\netcoreapp3.1\Data.pdb
+D:\Estudos\Senac\Prova\src\Api.Data\obj\Debug\netcoreapp3.1\Data.genruntimeconfig.cache
+C:\Users\sabri\Source\Repos\sabrinassantos\RegistroPontoApp\src\Api.Data\bin\Debug\netcoreapp3.1\Data.deps.json
+C:\Users\sabri\Source\Repos\sabrinassantos\RegistroPontoApp\src\Api.Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.json
+C:\Users\sabri\Source\Repos\sabrinassantos\RegistroPontoApp\src\Api.Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.dev.json
+C:\Users\sabri\Source\Repos\sabrinassantos\RegistroPontoApp\src\Api.Data\bin\Debug\netcoreapp3.1\Data.dll
+C:\Users\sabri\Source\Repos\sabrinassantos\RegistroPontoApp\src\Api.Data\bin\Debug\netcoreapp3.1\Data.pdb
+C:\Users\sabri\Source\Repos\sabrinassantos\RegistroPontoApp\src\Api.Data\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\sabri\Source\Repos\sabrinassantos\RegistroPontoApp\src\Api.Data\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\sabri\Source\Repos\sabrinassantos\RegistroPontoApp\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csprojAssemblyReference.cache
+C:\Users\sabri\Source\Repos\sabrinassantos\RegistroPontoApp\src\Api.Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfoInputs.cache
+C:\Users\sabri\Source\Repos\sabrinassantos\RegistroPontoApp\src\Api.Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfo.cs
+C:\Users\sabri\Source\Repos\sabrinassantos\RegistroPontoApp\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csproj.CoreCompileInputs.cache
+C:\Users\sabri\Source\Repos\sabrinassantos\RegistroPontoApp\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csproj.CopyComplete
+C:\Users\sabri\Source\Repos\sabrinassantos\RegistroPontoApp\src\Api.Data\obj\Debug\netcoreapp3.1\Data.dll
+C:\Users\sabri\Source\Repos\sabrinassantos\RegistroPontoApp\src\Api.Data\obj\Debug\netcoreapp3.1\Data.pdb
+C:\Users\sabri\Source\Repos\sabrinassantos\RegistroPontoApp\src\Api.Data\obj\Debug\netcoreapp3.1\Data.genruntimeconfig.cache
