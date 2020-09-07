@@ -21,7 +21,7 @@ namespace Api.CrossCutting.DependencyInjection
 
             serviceCollection.AddScoped<IUsuarioRepository, UsuarioImplementation>();
             serviceCollection.AddScoped<IRegistroRepository, RegistroImplementation>();
-            
+   
 
             serviceCollection.AddDbContext<MyContext>(
                 options => options.UseSqlServer("Server=.\\SQLEXPRESS2019;Initial Catalog=dbApi;MultipleActiveResultSets=true; User=sa;Password=210380")

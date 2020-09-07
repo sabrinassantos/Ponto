@@ -58,7 +58,6 @@ C:\Users\sabri\Source\Repos\sabrinassantos\RegistroPontoApp\src\Api.CrossCutting
 C:\Users\sabri\Source\Repos\sabrinassantos\RegistroPontoApp\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.csprojAssemblyReference.cache
 C:\Users\sabri\Source\Repos\sabrinassantos\RegistroPontoApp\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.AssemblyInfoInputs.cache
 C:\Users\sabri\Source\Repos\sabrinassantos\RegistroPontoApp\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.AssemblyInfo.cs
-C:\Users\sabri\Source\Repos\sabrinassantos\RegistroPontoApp\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.csproj.CoreCompileInputs.cache
 C:\Users\sabri\Source\Repos\sabrinassantos\RegistroPontoApp\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.csproj.CopyComplete
 C:\Users\sabri\Source\Repos\sabrinassantos\RegistroPontoApp\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.dll
 C:\Users\sabri\Source\Repos\sabrinassantos\RegistroPontoApp\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.pdb

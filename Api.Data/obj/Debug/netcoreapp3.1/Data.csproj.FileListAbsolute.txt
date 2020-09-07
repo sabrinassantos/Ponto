@@ -53,8 +53,8 @@ C:\Users\sabri\Source\Repos\sabrinassantos\RegistroPontoApp\src\Api.Data\bin\Deb
 C:\Users\sabri\Source\Repos\sabrinassantos\RegistroPontoApp\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csprojAssemblyReference.cache
 C:\Users\sabri\Source\Repos\sabrinassantos\RegistroPontoApp\src\Api.Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfoInputs.cache
 C:\Users\sabri\Source\Repos\sabrinassantos\RegistroPontoApp\src\Api.Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfo.cs
-C:\Users\sabri\Source\Repos\sabrinassantos\RegistroPontoApp\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csproj.CoreCompileInputs.cache
 C:\Users\sabri\Source\Repos\sabrinassantos\RegistroPontoApp\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csproj.CopyComplete
 C:\Users\sabri\Source\Repos\sabrinassantos\RegistroPontoApp\src\Api.Data\obj\Debug\netcoreapp3.1\Data.dll
 C:\Users\sabri\Source\Repos\sabrinassantos\RegistroPontoApp\src\Api.Data\obj\Debug\netcoreapp3.1\Data.pdb
 C:\Users\sabri\Source\Repos\sabrinassantos\RegistroPontoApp\src\Api.Data\obj\Debug\netcoreapp3.1\Data.genruntimeconfig.cache
+C:\Users\sabri\Source\Repos\sabrinassantos\RegistroPontoApp\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csproj.CoreCompileInputs.cache

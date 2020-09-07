@@ -9,6 +9,7 @@ using Microsoft.OpenApi.Models;
 using Api.CrossCutting.Mappings;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
+using CrossCutting.DependencyInjection;
 
 namespace application
 {
@@ -26,6 +27,7 @@ namespace application
         {
  
             services.AddControllers();
+            services.AddIdentityConfiguration(Configuration);
 
             ConfigureService.ConfigureDependenciesService(services);
             ConfigureRepository.ConfigureDependenciesRepository(services);
@@ -35,6 +37,9 @@ namespace application
                 cfg.AddProfile(new EntityToDtoProfile());
                 cfg.AddProfile(new ModelToEntityProfile());
             });
+
+           
+
 
             services.AddApiVersioning(options =>
             {
@@ -53,41 +58,6 @@ namespace application
             IMapper mapper = config.CreateMapper();
             services.AddSingleton(mapper);
 
-            //var signingConfigurations = new SigningConfigurations();
-            //services.AddSingleton(signingConfigurations);
-
-            //services.AddAuthentication(authOptions =>
-            //{
-            //    authOptions.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-            //    authOptions.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-            //}).AddJwtBearer(bearerOptions =>
-            //{
-            //    var paramsValidation = bearerOptions.TokenValidationParameters;
-            //    paramsValidation.IssuerSigningKey = signingConfigurations.Key;
-            //    paramsValidation.ValidAudience = Environment.GetEnvironmentVariable("Audience");
-            //    paramsValidation.ValidIssuer = Environment.GetEnvironmentVariable("Issuer");
-
-            //    // Valida a assinatura de um token recebido
-            //    paramsValidation.ValidateIssuerSigningKey = true;
-
-            //    // Verifica se um token recebido ainda é válido
-            //    paramsValidation.ValidateLifetime = true;
-
-            //    // Tempo de tolerância para a expiração de um token (utilizado
-            //    // caso haja problemas de sincronismo de horário entre diferentes
-            //    // computadores envolvidos no processo de comunicação)
-            //    paramsValidation.ClockSkew = TimeSpan.Zero;
-            //});
-
-            //// Ativa o uso do token como forma de autorizar o acesso
-            //// a recursos deste projeto
-            //services.AddAuthorization(auth =>
-            //{
-            //    auth.AddPolicy("Bearer", new AuthorizationPolicyBuilder()
-            //        .AddAuthenticationSchemes(JwtBearerDefaults.AuthenticationScheme‌​)
-            //        .RequireAuthenticatedUser().Build());
-            //});
-
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo
@@ -103,24 +73,6 @@ namespace application
                     }
                 });
 
-                //c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
-                //{
-                //    Description = "Entre com o Token JWT",
-                //    Name = "Authorization",
-                //    In = ParameterLocation.Header,
-                //    Type = SecuritySchemeType.ApiKey
-                //});
-
-                //c.AddSecurityRequirement(new OpenApiSecurityRequirement {
-                //    {
-                //        new OpenApiSecurityScheme {
-                //            Reference = new OpenApiReference {
-                //                Id = "Bearer",
-                //                Type = ReferenceType.SecurityScheme
-                //            }
-                //        }, new List<string>()
-                //    }
-                //});
             });
         }
 
@@ -136,29 +88,19 @@ namespace application
             app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "Prova Técnica");
-                //c.RoutePrefix = string.Empty;
+               
             });
 
             app.UseRouting();
 
             app.UseAuthorization();
+            app.UseAuthentication();
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
             });
 
-            //if (Environment.GetEnvironmentVariable("MIGRATION").ToLower() == "APLICAR".ToLower())
-            //{
-            //    using (var service = app.ApplicationServices.GetRequiredService<IServiceScopeFactory>()
-            //                                                .CreateScope())
-            //    {
-            //        using (var context = service.ServiceProvider.GetService<MyContext>())
-            //        {
-            //            context.Database.Migrate();
-            //        }
-            //    }
-            //}
         }
     }
 }
