@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Domain.Interfaces.Services.Notificador;
+using Domain.Interfaces.Services.User;
 using Domain.Notificacoes;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -15,10 +16,21 @@ namespace application.Controllers
     public class MainController : ControllerBase
     {
         private readonly INotificador _notificador;
-        protected MainController(INotificador notificador)
+        public readonly IUser AppUser;
+
+        protected Guid UsuarioId { get; set; }
+        protected bool UsuarioAutenticado { get; set; }
+        protected MainController(INotificador notificador, IUser appUser)
         {
             _notificador = notificador;
-          
+            AppUser = appUser;
+
+            if (appUser.IsAuthenticated())
+            {
+                UsuarioId = appUser.GetUserId();
+                UsuarioAutenticado = true;
+            }
+
         }
         protected ActionResult CustomResponse(ModelStateDictionary modelState)
         {

@@ -330,7 +330,6 @@ C:\Users\sabri\Source\Repos\sabrinassantos\RegistroPontoApp\src\Api.Application\
 C:\Users\sabri\Source\Repos\sabrinassantos\RegistroPontoApp\src\Api.Application\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
 C:\Users\sabri\Source\Repos\sabrinassantos\RegistroPontoApp\src\Api.Application\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
 C:\Users\sabri\Source\Repos\sabrinassantos\RegistroPontoApp\src\Api.Application\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
-C:\Users\sabri\Source\Repos\sabrinassantos\RegistroPontoApp\src\Api.Application\bin\Debug\netcoreapp3.1\Microsoft.AspNet.Identity.Core.dll
 C:\Users\sabri\Source\Repos\sabrinassantos\RegistroPontoApp\src\Api.Application\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
 C:\Users\sabri\Source\Repos\sabrinassantos\RegistroPontoApp\src\Api.Application\bin\Debug\netcoreapp3.1\System.Web.Http.dll
 C:\Users\sabri\Source\Repos\sabrinassantos\RegistroPontoApp\src\Api.Application\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
