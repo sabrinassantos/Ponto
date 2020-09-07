@@ -3,6 +3,7 @@ using System.Net;
 using System.Threading.Tasks;
 using Api.Domain.Dtos.Registro;
 using Api.Domain.Interfaces.Services.Registro;
+using Domain.Extensions;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Api.Application.Controllers
@@ -43,6 +44,7 @@ namespace Api.Application.Controllers
             }
         }
 
+        [ClaimsAuthorize("Supervisor", "Listar")]
         [HttpGet]
         [Route("{id}", Name = "GetRegistrosPorUsuarioId")]
         public async Task<ActionResult> Get(Guid id)
@@ -83,7 +85,7 @@ namespace Api.Application.Controllers
                 var result = await _service.Post(dtoCreate);
                 if (result != null)
                 {
-                    // return Created(new Uri(Url.Link("GetRegistrosPorUsuarioId", new { id = result.Id })), result);
+                    
                     return Ok(new
                     {
                         success = true,

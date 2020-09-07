@@ -2,6 +2,7 @@ using System;
 using System.Net;
 using System.Threading.Tasks;
 using Api.Domain.Interfaces.Services.Usuario;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Api.Application.Controllers
@@ -17,7 +18,7 @@ namespace Api.Application.Controllers
             _service = service;
         }
 
-       
+        [Authorize]
         [HttpGet]
         public async Task<ActionResult> GetAll()
         {
