@@ -3,7 +3,10 @@ using System.Net;
 using System.Threading.Tasks;
 using Api.Domain.Dtos.Registro;
 using Api.Domain.Interfaces.Services.Registro;
+using application.Controllers;
 using Domain.Extensions;
+using Domain.Interfaces.Services.Notificador;
+using Domain.Interfaces.Services.User;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Api.Application.Controllers
@@ -18,10 +21,12 @@ namespace Api.Application.Controllers
     /// 
     [Route("api/[controller]")]
     [ApiController]
-    public class RegistroController : ControllerBase
+    public class RegistroController : MainController
     {
         public IRegistroService _service { get; set; }
-        public RegistroController(IRegistroService service)
+        public RegistroController(IRegistroService service,
+                                   INotificador notificador,
+                                   IUser user) : base(notificador, user)
         {
             _service = service;
         }
@@ -73,29 +78,14 @@ namespace Api.Application.Controllers
        
 
         [HttpPost]
-        public async Task<ActionResult> Post([FromBody] RegistroDtoCreate dtoCreate)
+        public async Task<ActionResult<RegistroDtoCreateResult>> Post([FromBody] RegistroDtoCreate dtoCreate)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-
+            if (!ModelState.IsValid) return CustomResponse(ModelState);
+            
             try
             {
                 var result = await _service.Post(dtoCreate);
-                if (result != null)
-                {
-                    
-                    return Ok(new
-                    {
-                        success = true,
-                        data = result
-                    });
-                }
-                else
-                {
-                    return BadRequest();
-                }
+                return CustomResponse(dtoCreate);
             }
             catch (ArgumentException e)
             {
@@ -107,10 +97,7 @@ namespace Api.Application.Controllers
         public async Task<ActionResult> Put([FromBody] RegistroDtoUpdate dtoUpdate)
         {
 
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
+            if (!ModelState.IsValid) return CustomResponse(ModelState);
 
             try
             {
@@ -134,10 +121,7 @@ namespace Api.Application.Controllers
         [HttpDelete("{id}")]
         public async Task<ActionResult> Delete(Guid id)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
+            if (!ModelState.IsValid) return CustomResponse(ModelState);
             try
             {
                 return Ok(await _service.Delete(id));

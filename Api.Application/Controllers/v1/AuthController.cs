@@ -9,6 +9,7 @@ using Domain.Dtos;
 using Domain.Dtos.User;
 using Domain.Extensions;
 using Domain.Interfaces.Services.Notificador;
+using Domain.Interfaces.Services.User;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -28,7 +29,8 @@ namespace application.Controllers.v1
         public AuthController(INotificador notificador,
                               SignInManager<IdentityUser> signInManager,
                               UserManager<IdentityUser> userManager,
-                              IOptions<AppSettings> appSettings) : base(notificador)
+                              IOptions<AppSettings> appSettings,
+                              IUser user) : base(notificador, user)
         {
             _signInManager = signInManager;
             _userManager = userManager;
