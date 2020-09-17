@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Domain\\Domain.csproj": {}
+    "C:\\Users\\sabri\\source\\repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Domain\\Domain.csproj": {
+    "C:\\Users\\sabri\\source\\repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\sabri\\source\\repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\sabri\\source\\repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\sabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Domain\\obj\\",
+        "outputPath": "C:\\Users\\sabri\\source\\repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sabri\\AppData\\Roaming\\NuGet\\NuGet.Config",

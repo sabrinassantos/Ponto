@@ -1,5 +1,6 @@
 using System;
 using Api.Data.Mapping;
+using Api.Data.Seeds;
 using Api.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
@@ -24,11 +25,27 @@ namespace Api.Data.Context
                 new UsuarioEntity
                 {
                     Id = Guid.NewGuid(),
-                    Nome = "Administrador",
+                    Nome = "Teste1",
                     CreateAt = DateTime.Now,
                     UpdateAt = DateTime.Now,
-                }
+                },
+                 new UsuarioEntity
+                 {
+                     Id = Guid.NewGuid(),
+                     Nome = "Teste2",
+                     CreateAt = DateTime.Now,
+                     UpdateAt = DateTime.Now,
+                 },
+                  new UsuarioEntity
+                  {
+                      Id = Guid.NewGuid(),
+                      Nome = "Teste3",
+                      CreateAt = DateTime.Now,
+                      UpdateAt = DateTime.Now,
+                  }
+
             );
+
 
         }
 

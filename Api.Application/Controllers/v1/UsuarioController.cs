@@ -18,7 +18,7 @@ namespace Api.Application.Controllers
             _service = service;
         }
 
-        [Authorize]
+      
         [HttpGet]
         public async Task<ActionResult> GetAll()
         {

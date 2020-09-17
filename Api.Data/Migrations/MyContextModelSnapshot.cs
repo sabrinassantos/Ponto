@@ -15,7 +15,7 @@ namespace Data.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "3.1.6")
+                .HasAnnotation("ProductVersion", "3.1.7")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
@@ -76,10 +76,21 @@ namespace Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("409b93a3-99f0-4dcd-956c-429b1712fdbe"),
-                            CreateAt = new DateTime(2020, 8, 23, 22, 43, 44, 114, DateTimeKind.Local).AddTicks(910),
-                            Nome = "Administrador",
-                            UpdateAt = new DateTime(2020, 8, 23, 22, 43, 44, 114, DateTimeKind.Local).AddTicks(9085)
+                            Id = new Guid("22ffbd18-cdb9-45cc-97b0-51e97700bf71"),
+                            CreateAt = new DateTime(2020, 9, 8, 10, 30, 40, 207, DateTimeKind.Utc).AddTicks(4490),
+                            Nome = "Teste1 "
+                        },
+                        new
+                        {
+                            Id = new Guid("7cc33300-586e-4be8-9a4d-bd9f01ee9ad8"),
+                            CreateAt = new DateTime(2020, 9, 8, 10, 30, 40, 207, DateTimeKind.Utc).AddTicks(6672),
+                            Nome = "Teste2 "
+                        },
+                        new
+                        {
+                            Id = new Guid("cb9e6888-2094-45ee-bc44-37ced33c693a"),
+                            CreateAt = new DateTime(2020, 9, 8, 10, 30, 40, 207, DateTimeKind.Utc).AddTicks(6691),
+                            Nome = "Teste3 "
                         });
                 });
 

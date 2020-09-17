@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Application\\application.csproj": {}
+    "C:\\Users\\sabri\\source\\repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Application\\application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Application\\application.csproj": {
+    "C:\\Users\\sabri\\source\\repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Application\\application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Application\\application.csproj",
+        "projectUniqueName": "C:\\Users\\sabri\\source\\repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Application\\application.csproj",
         "projectName": "application",
-        "projectPath": "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Application\\application.csproj",
+        "projectPath": "C:\\Users\\sabri\\source\\repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Application\\application.csproj",
         "packagesPath": "C:\\Users\\sabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Application\\obj\\",
+        "outputPath": "C:\\Users\\sabri\\source\\repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,14 +27,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.CrossCutting\\CrossCutting.csproj": {
-                "projectPath": "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.CrossCutting\\CrossCutting.csproj"
+              "C:\\Users\\sabri\\source\\repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.CrossCutting\\CrossCutting.csproj": {
+                "projectPath": "C:\\Users\\sabri\\source\\repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.CrossCutting\\CrossCutting.csproj"
               },
-              "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Domain\\Domain.csproj"
+              "C:\\Users\\sabri\\source\\repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\sabri\\source\\repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Domain\\Domain.csproj"
               },
-              "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Service\\Service.csproj": {
-                "projectPath": "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Service\\Service.csproj"
+              "C:\\Users\\sabri\\source\\repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Service\\Service.csproj": {
+                "projectPath": "C:\\Users\\sabri\\source\\repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Service\\Service.csproj"
               }
             }
           }
@@ -93,14 +93,14 @@
         }
       }
     },
-    "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.CrossCutting\\CrossCutting.csproj": {
+    "C:\\Users\\sabri\\source\\repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.CrossCutting\\CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.CrossCutting\\CrossCutting.csproj",
+        "projectUniqueName": "C:\\Users\\sabri\\source\\repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.CrossCutting\\CrossCutting.csproj",
         "projectName": "CrossCutting",
-        "projectPath": "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.CrossCutting\\CrossCutting.csproj",
+        "projectPath": "C:\\Users\\sabri\\source\\repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.CrossCutting\\CrossCutting.csproj",
         "packagesPath": "C:\\Users\\sabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.CrossCutting\\obj\\",
+        "outputPath": "C:\\Users\\sabri\\source\\repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.CrossCutting\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -116,14 +116,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Data\\Data.csproj"
+              "C:\\Users\\sabri\\source\\repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\sabri\\source\\repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Data\\Data.csproj"
               },
-              "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Domain\\Domain.csproj"
+              "C:\\Users\\sabri\\source\\repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\sabri\\source\\repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Domain\\Domain.csproj"
               },
-              "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Service\\Service.csproj": {
-                "projectPath": "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Service\\Service.csproj"
+              "C:\\Users\\sabri\\source\\repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Service\\Service.csproj": {
+                "projectPath": "C:\\Users\\sabri\\source\\repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Service\\Service.csproj"
               }
             }
           }
@@ -137,6 +137,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "AspNetCore.HealthChecks.UI": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "AspNetCore.HealthChecks.UI.Client": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
             "AutoMapper": {
               "target": "Package",
               "version": "[10.0.0, )"
@@ -180,14 +188,14 @@
         }
       }
     },
-    "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Data\\Data.csproj": {
+    "C:\\Users\\sabri\\source\\repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\sabri\\source\\repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Data\\Data.csproj",
+        "projectPath": "C:\\Users\\sabri\\source\\repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Data\\Data.csproj",
         "packagesPath": "C:\\Users\\sabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Data\\obj\\",
+        "outputPath": "C:\\Users\\sabri\\source\\repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -203,8 +211,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Domain\\Domain.csproj"
+              "C:\\Users\\sabri\\source\\repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\sabri\\source\\repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Domain\\Domain.csproj"
               }
             }
           }
@@ -262,14 +270,14 @@
         }
       }
     },
-    "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Domain\\Domain.csproj": {
+    "C:\\Users\\sabri\\source\\repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\sabri\\source\\repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\sabri\\source\\repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\sabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Domain\\obj\\",
+        "outputPath": "C:\\Users\\sabri\\source\\repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -336,14 +344,14 @@
         }
       }
     },
-    "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Service\\Service.csproj": {
+    "C:\\Users\\sabri\\source\\repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Service\\Service.csproj",
+        "projectUniqueName": "C:\\Users\\sabri\\source\\repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Service\\Service.csproj",
+        "projectPath": "C:\\Users\\sabri\\source\\repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Service\\Service.csproj",
         "packagesPath": "C:\\Users\\sabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Service\\obj\\",
+        "outputPath": "C:\\Users\\sabri\\source\\repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -359,11 +367,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Data\\Data.csproj"
+              "C:\\Users\\sabri\\source\\repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\sabri\\source\\repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Data\\Data.csproj"
               },
-              "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Domain\\Domain.csproj"
+              "C:\\Users\\sabri\\source\\repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\sabri\\source\\repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Domain\\Domain.csproj"
               }
             }
           }

@@ -10,6 +10,9 @@ using Api.CrossCutting.Mappings;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using CrossCutting.DependencyInjection;
+using DevIO.Api.Configuration;
+using Microsoft.AspNetCore.Diagnostics.HealthChecks;
+using HealthChecks.UI.Client;
 
 namespace application
 {
@@ -23,9 +26,11 @@ namespace application
 
         public IConfiguration Configuration { get; }
         public IWebHostEnvironment _environment { get; }
+
         public void ConfigureServices(IServiceCollection services)
         {
- 
+            services.AddCors(); // Make sure you call this previous to AddMvc
+
             services.AddControllers();
             services.AddIdentityConfiguration(Configuration);
 
@@ -55,6 +60,9 @@ namespace application
 
             });
 
+           // services.AddApiConfig();
+            services.AddHealthChecks();
+
             IMapper mapper = config.CreateMapper();
             services.AddSingleton(mapper);
 
@@ -79,10 +87,19 @@ namespace application
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+           // app.UseApiConfig(env);
             if (env.IsDevelopment())
             {
+               
+               // app.UseCors("Development");
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseCors(builder => builder
+                         .AllowAnyOrigin()
+                         .AllowAnyMethod()
+                         .AllowAnyHeader());
+
 
             app.UseSwagger();
             app.UseSwaggerUI(c =>
@@ -90,16 +107,20 @@ namespace application
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "Prova Técnica");
                
             });
-
+            app.UseHttpsRedirection();
             app.UseRouting();
 
             app.UseAuthorization();
             app.UseAuthentication();
 
+
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
             });
+
+          
 
         }
     }

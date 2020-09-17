@@ -19,8 +19,8 @@ using Microsoft.IdentityModel.Tokens;
 
 namespace application.Controllers.v1
 {
-    [Route("api")]
-    [ApiController]
+
+    [Route("api/v{version:apiVersion}")]
     public class AuthController : MainController
     {
         private readonly SignInManager<IdentityUser> _signInManager;

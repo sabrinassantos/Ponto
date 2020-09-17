@@ -8077,11 +8077,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Data\\Data.csproj",
+      "projectUniqueName": "C:\\Users\\sabri\\source\\repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Data\\Data.csproj",
+      "projectPath": "C:\\Users\\sabri\\source\\repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Data\\Data.csproj",
       "packagesPath": "C:\\Users\\sabri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Data\\obj\\",
+      "outputPath": "C:\\Users\\sabri\\source\\repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8097,8 +8097,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Domain\\Domain.csproj"
+            "C:\\Users\\sabri\\source\\repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\sabri\\source\\repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Domain\\Domain.csproj"
             }
           }
         }

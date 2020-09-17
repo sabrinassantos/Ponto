@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3d3ytV/k952YdTEIbqzjO8GKvge/9YGxnBKE8hogidOdLMZLhOZU9JFjn3nltL2tBjJ2tTzy4ytlOyh8f9OH1g==",
+  "dgSpecHash": "zEEjIXt+4DLwjuZqjBIk1UXrXkSaKLX/lGKX/VAL21FJ4d5t3NcuPdTcPTWA0Sj3kw8VFRv0424Ka/GMitvUsg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sabri\\Source\\Repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\sabri\\source\\repos\\sabrinassantos\\RegistroPontoApp\\src\\Api.Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sabri\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
     "C:\\Users\\sabri\\.nuget\\packages\\microsoft.aspnet.webapi.core\\5.2.7\\microsoft.aspnet.webapi.core.5.2.7.nupkg.sha512",

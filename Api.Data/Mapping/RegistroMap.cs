@@ -19,6 +19,8 @@ namespace Api.Data.Mapping
             builder.HasOne(u => u.Usuario)
                    .WithMany(m => m.Registros);
 
+
+
         }
     }
 }
